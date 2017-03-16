@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Dale Fairfield</title>
+      <link rel="stylesheet" type="text/css" href="dale.css">
+   </head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://csshake.surge.sh/csshake-vertical.min.css">
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $( "#ToggleFM" ).click(function() {
+          $( "#togglefindme" ).toggle( );
+        });
+        $( "#ToggleED" ).click(function() {
+          $( "#toggleeducation" ).toggle( );
+        });
+        $( "#ToggleAM" ).click(function() {
+            $( "#toggleaboutme" ).toggle( );
+        });
+        $( "#ToggleINT" ).click(function() {
+          $( "#toggleinterest" ).toggle( );
+        });
+      });
+     </script>
+   </head>
+
+   <body>
+     <div id="container">
+       <img src="forest_background.jpg" alt="forest ground cover">
+         <div id="header">
+           <h1 class="shake-vertical">Dale Fairfield</h1>
+         </div>
+           <div class="text-center" id="findme">
+             <button class="shake-vertical" id="ToggleFM" style="float:right;">Contact ME</button>
+             <ul id="togglefindme" style="list-style-type:none; display:none;">
+               <li><a href="https://www.linkedin.com/in/dale-fairfield-351510131/">Im on LinkedIn!</a></li>
+               <li>Shoot me an email at <b>dalefairfield1@gmail.com</b></li>
+               </ul>
+           </div>
+           <div class="text-center" id="education">
+             <button class="shake-vertical" id="ToggleED" style="float:right;">Education</button>
+             <table class="table" id="toggleeducation" style="display:none;">
+              <thead>
+                <tr>
+                  <th>School</th>
+                  <th>Degree & Program</th>
+                  <th>Completion Date</th>
+                </tr>
+               </thead>
+                 <tr>
+                  <td><a href="http://www.codingdojo.com/">Coding Dojo</a></td>
+                  <td><i>Full Stack Web Development</i></td>
+                  <td><u>December 2016</u></td>
+                </tr>
+                <tr>
+                 <td><a href="http://www.towson.edu">Towson University</a></td>
+                 <td><i>Bachelor’s of Science in Middle School Education specializing in Mathematics and Science</i></td>
+                 <td><u>June 2015</u></td>
+               </tr>
+             </table>
+           </div>
+           <div class="text-center" id="aboutme">
+             <button class="shake-vertical" id="ToggleAM" style="float:right;">About Me</button>
+             <p id="toggleaboutme" style="display:none;"> My name is Dale Fairfield, from Baltimore Maryland.  After teaching for one year, I decided to make a career change, leaving the world of education and enter the world of computer programming. After a lot of research and careful consideration, I decided the best step for me was entering a coding bootcamp to learn how to program. I decided to attend a fourteen week intensive bootcamp called <a href="http://www.codingdojo.com/">Coding Dojo</a> in Washington DC. After the fourteen weeks, I have gained proficiency in HTML 5, CSS 3, JavaScript, Python, and Ruby.</p>
+          </div>
+
+          <div class="text-center" id="interests">
+            <button class="shake-vertical" id="ToggleINT" style="float:right;">Interests</button>
+            <p id="toggleinterest" style="display:none;"> My interests consist of a true myriad of randomness. I have a love for learning new things, which speaks to my strange compilation of interests. I was raised on sports and the outdoors, and my love for them has not diminished as time continues. In the sports realm, I love basketball. The game allowed me to experience the ups and downs that only sport can bring, meet tremendous people, and share my knowledge and love of the game to everyone that will listen. I also love soccer, football, baseball, and am learning the rules to cricket and rugby. I am also a bit of a nerd, participating in playing <a href="http://magic.wizards.com/en">Magic the Gathering</a> for more than half of my life. For those who know, or interested, I am an avid legacy player that is reluctant to play blue and loves to play wacky cards. These are just a few of my interests but they allow me to constantly solve problems in different ways. </p>
+          </div>
+       </div>
+   </body>
+</html>
